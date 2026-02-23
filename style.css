@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(30, 18%, 87%);
+    font-family: "Outfit", sans-serif;
+}
+
+#omlete-maker {
+    background-color: white;
+    margin: 40px auto;
+    width: 70%;
+    border-radius: 20px;
+    list-style-position: inside;
+    padding: 0 0 40px 0;
+}
+
+img {
+    width: calc(100% - 40px);
+    margin: 20px;
+    border-radius: 15px;
+}
+
+#intro {
+    padding: 20px 40px;
+}
+
+#intro h1 {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    color: hsl(24, 5%, 18%);
+    margin-bottom: 15px;
+}
+
+#intro p {
+    font-size: 16px;
+    font-weight: 400;
+    color: hsl(30, 10%, 34%);
+    line-height: 1.6;
+}
+
+#preparation {
+    background-color: hsl(330, 100%, 98%);
+    padding: 20px 30px;
+    border-radius: 10px;
+    margin: 0 40px 30px 40px;
+}
+
+#preparation h4 {
+    color: hsl(332, 51%, 32%);
+    margin-bottom: 15px;
+}
+
+#preparation li {
+    color: hsl(30, 10%, 34%);
+    margin-bottom: 8px;
+    line-height: 1.6;
+}
+
+#ingredients {
+    padding: 20px 40px;
+}
+
+#ingredients h2 {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    color: hsl(14, 45%, 36%);
+    margin-bottom: 15px;
+}
+
+#ingredients li {
+    color: hsl(30, 10%, 34%);
+    line-height: 1.8;
+    margin-bottom: 8px;
+} 
+#instructions h2{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    color: hsl(14, 45%, 36%);
+    margin-bottom: 15px; 
+    padding: 20px 40px; 
+} 
+#instructions li{
+    color: hsl(30, 10%, 34%);
+    line-height: 1.8;
+    margin-bottom: 8px; 
+    margin:10px;
+}
+#nutrition {
+    padding: 20px 40px;
+}
+
+#nutrition h2 {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    color: hsl(14, 45%, 36%);
+    margin-bottom: 15px;
+}
+
+#nutrition p {
+    color: hsl(30, 10%, 34%);
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+#nutrition table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#nutrition tr {
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+#nutrition tr:last-child {
+    border-bottom: none;
+}
+
+#nutrition td {
+    padding: 10px 20px;
+    color: hsl(30, 10%, 34%);
+}
+
+#nutrition td:last-child {
+    font-weight: 700;
+    color: hsl(14, 45%, 36%);
+}
