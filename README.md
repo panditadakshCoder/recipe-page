@@ -13,8 +13,8 @@ A recipe page built with HTML and CSS.
 
 ## Live Site
 
-Coming soon!
-    
+(https://panditadakshcoder.github.io/recipe-page/)
+
 ## Author
 
 - GitHub - [Daksh Pandita](https://github.com/panditadakshCoder)
